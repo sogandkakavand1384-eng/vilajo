@@ -1,0 +1,92 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  z-index: 5;
+}
+.left{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.login-membership{
+  margin-left: 30px;
+  border: solid 1px #E6E2DA;
+  width: 50%;
+  border-radius: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  font-size: 16px;
+  white-space: nowrap;
+  margin-right: -30px;
+}
+.membership{
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 16px;
+  font-weight:501;
+}
+.jodakonande{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  cursor: default;
+}
+.login{
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 16px;
+  font-weight:501;
+  text-decoration: none;
+  color: black;
+}
+.svg-user{
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: -5px;
+}
+.user{
+  display: inline-block;
+  width: 20px;
+}
+.svg-search{
+  margin-left: 60px;
+  border-left: solid 3px #e6e2da93;
+  padding-left: 25px;
+  white-space: nowrap;
+}
+.search{
+  width: 23px;
+}
+.middle{
+  flex: 1;
+  direction: rtl;
+  display: inline-block;
+  font-weight:bold;
+}
+.khane , .maghsad , .vila , .hotel , .tajrobe , .about-us , .contact{
+  margin-left: 30px;
+  font-size: 16px;
+  display: inline-block;
+}
+.right{
+  direction: rtl;
+  width: 200px;
+}
+.logo-pic{
+  width: 35%;
+  margin-right: 30px;
+}

@@ -1,0 +1,140 @@
+.destinations{
+    margin-top: 70px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.text-of-destination{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+}
+.tozih-of-destination{
+    flex: 1;
+    direction: rtl;
+}
+.titr-of-destinations{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1px;
+}
+.titr-of-destinations1{
+    font-size: 16px;
+}
+.view-more{
+    flex: 1;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.view{
+    font-size: 16px;
+}
+.svg-arrow{
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.item-of-popular-destination{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    height: 200px;
+}
+.item1{
+    direction: rtl;
+    position: relative;
+}
+.item1-1{
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+.item1-2{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0) 95%);
+    position: absolute;
+    bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+.item2-2 , .item3-2 , .item4-2{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0) 95%);
+    position: absolute ;
+    bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+.name-of-place{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.place{
+    font-size: 16px;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+}
+.tozih-of-place{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.count-of-place{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.count{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.svg{
+    flex: 1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.svg-icon-place{
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.item2{
+    position: relative;
+    direction: rtl;
+}
+.item3{
+    position: relative;
+    direction: rtl;
+}
+.item4{
+    position: relative;
+    direction: rtl;
+}
